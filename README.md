@@ -22,6 +22,19 @@ _This walkthrough assumes you've installed nodejs._
 
 6. After the app starts, check out the navigation items in the left sidebar of the starter app. Alright, that's enough blabbering from me. Enjoy building your electron app. **Good Luck!**
 
+### Some Helpful things
+1. To "require" in an HTML file (hint: html template files are the bees knees) simply create a `Util` object:
+```javascript
+let util = new Util();
+```
+then pass the file name + extension and a callback function to the `Util.getTmpl` function:
+```javascript
+util.getTmpl('template.html',function (html) {
+    console.log('html',html);
+});
+```
+If you restructure the project directories, visit the `Util.getTmpl` function in [/lib/js/util.js](./lib/js/util.js) to change the default directory for templates.
+
 ### Included in the project (or after `npm install`):
 _A few libraries I've found helpful, add to and/or remove what you wish_
 
