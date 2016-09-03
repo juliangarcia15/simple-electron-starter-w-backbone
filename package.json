@@ -1,0 +1,22 @@
+{
+    "name": "ElectronStarter",
+    "version": "0.0.1",
+    "description": "Simple starter app, see README",
+    "main": "lib/main.js",
+    "dependencies": {
+        "request": "^2.74.0",
+        "jquery": "^3.1.0",
+        "underscore": "^1.8.3",
+        "backbone": "^1.3.3",
+        "moment": "^2.14.1"
+    },
+    "devDependencies": {
+        "electron": "^1.3.3"
+    },
+    "scripts": {
+        "start": "electron .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Julian Garcia",
+    "license": "MIT"
+}

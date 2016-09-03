@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Electron Starter</title>
+
+    <!-- External Style Sheets -->
+    <!-- see http://photonkit.com/ to learn more about photon styles -->
+    <link rel="stylesheet" href="./css/photon.css" type="text/css">
+
+    <!-- App Style Sheets -->
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+    <!-- Wrap your entire app inside .window -->
+    <div class="window">
+
+        <!-- Optional Header that sits at the top of your app -->
+        <!-- <header class="toolbar toolbar-header">
+            <h1 class="title">Header</h1>
+        </header> -->
+
+        <!-- Your app's content goes inside .window-content -->
+        <div class="window-content">
+            <div class="pane-group">
+                <div class="pane-sm sidebar">
+                    <nav class="nav-group">
+                        <a href="#home" class="nav-group-item active">
+                            <span class="icon icon-home"></span>
+                            Home
+                        </a>
+                        <h5 class="nav-group-title">Alt Views</h5>
+                        <a href="#altView1" class="nav-group-item">
+                            <span class="icon icon-rocket"></span>
+                            Alt View 1
+                        </a>
+                        <a href="#altView2" class="nav-group-item">
+                            <span class="icon icon-flight"></span>
+                            Alt View 2
+                        </a>
+                        <a href="#altView3" class="nav-group-item">
+                            <span class="icon icon-clock"></span>
+                            Alt View 3
+                        </a>
+                    </nav>
+                </div>
+                <div class="pane">
+                    <h1>Electron Sample</h1>
+                    <h3>
+                        </span class="icon icon-globe"></span>
+                        Hello, world!
+                        </span class="icon icon-globe"></span>
+                    </h3>
+                    <h6 id="navClickedName">Home Nav Active</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional Footer that sits at the bottom of your app -->
+        <footer class="toolbar toolbar-footer">
+            <div class="pull-right">
+                <small class="padded-more">An electron app maintained by Julian Garcia</small>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+<!-- Call for the html control object -->
+<script>
+require('./renderer');
+</script>
+</html>
