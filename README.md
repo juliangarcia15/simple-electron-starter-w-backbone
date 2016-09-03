@@ -1,6 +1,6 @@
 #  _electron starter w/ Backbone_
 An easily extendable simple electron starter app with the following features:
-  * Sidebar navigation panel
+  * Sidebar Navigation
   * "Hello, World" Example with Backbone
 
 
@@ -19,6 +19,7 @@ _This walkthrough assumes you've installed nodejs._
 4. To the [Renderer](./lib/renderer.js)! This file contains all your view control logic, the "meat" of the app. Modify as needed. I've left some examples of how to require in project files and some tips about where to begin placing backbone objects.
 
 5. To start the app for the first time run `npm install && npm start` from the new directory created in the first step. You'll only need to run `npm start` to restart your app once it's been closed or a new package/library is installed. `Command-R` will refresh the app to show html/functionality changes.
+
 6. After the app starts, check out the navigation items in the left sidebar of the starter app. Alright, that's enough blabbering from me. Enjoy building your electron app. **Good Luck!**
 
 ### Included in the project (or after `npm install`):
